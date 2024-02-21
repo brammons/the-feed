@@ -1,0 +1,35 @@
+body{
+
+    background-color: #3b0014;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    color: ghostwhite;
+    font-size: 24px;
+    font-family: monospace; 
+    font-weight: 100;
+    display: flex;
+
+}
+a{
+    color: #f9cdcc;
+}
+
+@font-face {
+    font-family: BNGamma;
+    src: url(fonts/BNGamma.otf);
+}
+
+h1{
+    font-family: BNGamma;
+    color: #f9cdcc;
+    font-size: 72px;
+    justify-content: flex-start;
+}
+
+.container{
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
