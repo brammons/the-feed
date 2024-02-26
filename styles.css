@@ -1,17 +1,17 @@
 body{
 
     background-color: #3b0014;
-    padding-left: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px;
+    display: flex;
     color: ghostwhite;
     font-size: 24px;
     font-family: monospace; 
     font-weight: 100;
-    display: flex;
-
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
 }
+
 a{
     color: #f9cdcc;
 }
@@ -25,11 +25,19 @@ h1{
     font-family: BNGamma;
     color: #f9cdcc;
     font-size: 72px;
-    justify-content: flex-start;
+}
+
+h4{
+    font-family: BNGamma;
+    color: #f9cdcc;
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .container{
     justify-content: flex-start;
     flex-direction: column;
-
 }
